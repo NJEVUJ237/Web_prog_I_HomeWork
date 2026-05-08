@@ -1,0 +1,77 @@
+/* Az egész oldal alapbeállításai */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fejléc: Sötétkék alap, fehér szöveg, középre zárt tartalom */
+header {
+    background-color: #003366; /* Sötétkék */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden; /* Tisztázza a float-ot */
+}
+
+header img {
+    float: left;
+    width: 80px;
+    height: auto;
+}
+
+/* Keret, ami összefogja a menüt és a tartalmat */
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* Navigáció stílusa */
+nav {
+    background-color: #333;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+    border-radius: 10px;
+}
+
+/* Tartalom terület */
+#content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    min-height: 400px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 10px auto;
+    color: #666;
+}
