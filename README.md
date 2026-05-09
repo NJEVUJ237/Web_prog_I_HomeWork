@@ -1,0 +1,2 @@
+The goal of the project was to create a modern, functional and responsive website for the Hungarian Film Archive. The chosen theme allowed for the integration of multimedia content (videos, images, maps) and the creation of an administration interface with a complex database background.
+During the development, we paid special attention to the user experience, secure login and the integrity of server-side data.
