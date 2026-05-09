@@ -1,0 +1,1 @@
+<p>Törlés folyamatban...</p>
